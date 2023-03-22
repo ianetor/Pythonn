@@ -18,11 +18,6 @@ for i in range(0, times):
         number_2 = randrange(1,10)
     else:
         number_2 = randrange(10)
-    end_time = datetime.now()
-    # Restando las fechas obtenemos el tiempo transcurrido.
-    total_time = end_time - init_time
-    # Mostramos ese tiempo en segundos.
-    print(f"\n Tardaste {total_time.seconds} segundos.")
     # Se imprime la cuenta.
     print(f"{i+1}- ¿Cuánto es {number_1} {operator} {number_2}?")
     # Le pedimos al usuario el resultado
