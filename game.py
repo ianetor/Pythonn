@@ -15,7 +15,7 @@ for i in range(0, times):
     number_1 = randrange(10)
     operator = choice(operators)
     if (operator== "/"):
-        numer_2 = randrange(1,10)
+        number_2 = randrange(1,10)
     else:
         number_2 = randrange(10)
     end_time = datetime.now()
